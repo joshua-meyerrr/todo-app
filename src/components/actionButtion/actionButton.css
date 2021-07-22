@@ -1,0 +1,14 @@
+.action-btn {
+  width: 6.688rem;
+  height: 5.625rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 11px 0 0 0;
+}
+
+.action-btn img {
+  margin-top: 5px;
+}
