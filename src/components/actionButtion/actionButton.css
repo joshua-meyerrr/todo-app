@@ -1,4 +1,4 @@
-.btn {
+.action-btn {
   width: 6.688rem;
   height: 5.625rem;
   position: absolute;
@@ -8,5 +8,3 @@
   border: none;
   border-radius: 11px 0 0 0;
 }
-/*size extracted from mousehover in xd design */
-/* closest to design imo */
