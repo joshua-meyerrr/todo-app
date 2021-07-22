@@ -8,3 +8,7 @@
   border: none;
   border-radius: 11px 0 0 0;
 }
+
+.action-btn img {
+  margin-top: 5px;
+}
