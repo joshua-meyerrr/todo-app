@@ -1,9 +1,9 @@
 import "./actionButton.css";
-import buttonSquare from "./actionButton.html";
+import actionButton from "./actionButton.html";
 
 export default {
   title: "Components/Button",
   parameters: { layout: "fullscreen" },
 };
 
-export const btnSq = () => buttonSquare;
+export const btnSq = () => actionButton;
