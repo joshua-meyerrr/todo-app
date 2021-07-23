@@ -1,36 +1,23 @@
-<form class="task-form">
-  <ul>
-    <li>
-      <label for="description">
-        DESCRIPTION<input
-          id="description"
-          type="text"
-          name="description"
-          placeholder="Enter Task"
-        />
-      </label>
-    </li>
-    <li>
-      <fieldset>
-        <legend>WHEN</legend>
-        <p>
-          <input type="radio" name="date" id="date_1" />
-          <label for="date_1">Today</label>
-        </p>
-        <p>
-          <input type="radio" name="date" id="date_2" />
-          <label for="date_2">Tomorrow</label>
-        </p>
-        <p>
-          <input type="radio" name="date" id="date_3" />
-          <label for="date_3">Select Date</label>
-        </p>
-      </fieldset>
-    </li>
-    <li>
-      <input type="submit" value="Add Task" id="add-task-btn" />
-      <label for="add-task-btn">Add Task</label>
-      <!-- hide label -->
-    </li>
-  </ul>
-</form>
+<div class="container">
+  <form class="flex task-list">
+    <label class="head3 rel mar-5">
+      DESCRIPTION<span id="underline">
+        <input type="text" name="description" placeholder="Enter Task" />
+      </span>
+    </label>
+    <fieldset class="flex mar-5">
+      <legend class="head3">WHEN</legend>
+      <div class="wrap flex">
+        <input type="radio" name="date" id="date_1" />
+        <label for="date_1">Today</label>
+        <input type="radio" name="date" id="date_2" />
+        <label for="date_2">Tomorrow</label>
+        <input type="radio" name="date" id="date_3" />
+        <label for="date_3">Select Date</label>
+      </div>
+    </fieldset>
+    <input type="submit" value="Add Task" id="add-task-btn" />
+    <!-- <label for="add-task-btn">Add Task</label> -->
+    <!-- TODO: Hide Label  -->
+  </form>
+</div>
