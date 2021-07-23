@@ -1,5 +1,5 @@
-import "./addTask.css";
-import addTaskPage from "./addTask.html";
+import "./addTaskPage.css";
+import addTaskPage from "./addTaskPage.html";
 
 export default { title: "Pages/AddTask" };
 
