@@ -38,7 +38,7 @@ input:focus {
 
 /* Task Form */
 
-.task-list {
+.task-form {
   flex-direction: column;
   justify-content: space-between;
   height: 80%;
@@ -67,7 +67,7 @@ input:focus {
   margin-top: 1rem;
 }
 
-.head3 {
+.task-form__element-header {
   font-size: 1rem;
   font-weight: var(--fw-secondary);
   letter-spacing: 0.1rem;
