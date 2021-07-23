@@ -24,7 +24,7 @@
 .taskItem__label2--checked::after {
   content: "";
   position: absolute;
-  top: 1.9em;
+  top: 38%;
   left: 0;
   right: 5%;
   border-bottom: 2px solid var(--primary);
@@ -33,14 +33,14 @@
 .taskItem__label2--checked::before {
   content: "";
   position: absolute;
-  bottom: 1.8em;
+  bottom: 36%;
   left: 0;
   right: 45%;
   border-bottom: 2px solid var(--primary);
 }
 
-/* Problem: Not Responsive and width of second stike-line must be calculated ... think about better solution future me! */
+/* Problem: Not true responsive and width of second stike-line must be calculated ... think about better solution future me! */
 
-.linebreak {
+.linebreak-simulator {
   width: 300px;
 }
