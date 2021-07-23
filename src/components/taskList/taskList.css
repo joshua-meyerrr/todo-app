@@ -9,4 +9,18 @@
   font-size: 1.5rem;
   letter-spacing: 0.075rem;
   background-color: #fbfbfb;
+  position: relative;
+}
+
+.taskItem__label--checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 5%;
+  border-bottom: 2px solid var(--primary);
+}
+
+.checkk {
+  width: 300px;
 }
