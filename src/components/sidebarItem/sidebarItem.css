@@ -9,6 +9,7 @@ a.sidebar-item:visited {
 }
 
 a.sidebar-item--active,
-a.sidebar-item--active:active {
+a.sidebar-item--active:active,
+a.sidebar-item--active:hover {
   color: var(--primary);
 }
