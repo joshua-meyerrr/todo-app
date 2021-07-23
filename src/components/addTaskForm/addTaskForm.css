@@ -42,7 +42,6 @@ input:focus {
   display: block;
   font-size: 1rem;
   font-weight: var(--fw-secondary);
-  letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
 }
