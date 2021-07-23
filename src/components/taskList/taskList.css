@@ -1,0 +1,12 @@
+.taskItem__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.taskItem__label {
+  padding: 2rem 1.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.075rem;
+  background-color: #fbfbfb;
+}
