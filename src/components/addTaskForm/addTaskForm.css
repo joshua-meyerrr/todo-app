@@ -9,3 +9,29 @@
 ul {
   list-style: none;
 }
+
+fieldset {
+  border: none;
+  position: relative;
+}
+
+input,
+label {
+  display: block;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
