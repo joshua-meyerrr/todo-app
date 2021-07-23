@@ -1,0 +1,15 @@
+.task-page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 2.3fr;
+}
+
+.task-form {
+  grid-row: 2/3;
+  justify-content: space-between;
+}
+
+.task-page__heading {
+  align-self: center;
+  color: var(--text-primary);
+}
