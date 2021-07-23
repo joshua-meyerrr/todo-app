@@ -44,6 +44,7 @@ input:focus {
   font-weight: var(--fw-secondary);
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
 }
 
 input[name="description"] {
@@ -53,6 +54,7 @@ input[name="description"] {
   width: 100%;
   border-bottom: 3px rgba(52, 45, 47, 0.38) solid;
   padding-bottom: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 input[name="description"]::placeholder {
@@ -81,9 +83,10 @@ input:focus + label {
   height: 97px;
   background-color: var(--primary);
   color: #fff;
-  font-weight: var(--fw-secondary);
+  font-weight: var(--fw-primary);
   font-size: 1.25rem;
   font-family: var(--ff-primary);
+  letter-spacing: 0.1rem;
 }
 
 .radio__input {
