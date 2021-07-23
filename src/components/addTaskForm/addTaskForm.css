@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+fieldset {
+  border: none;
+}
+
+input,
+label {
+  display: block;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.mar-5 {
+  margin-left: 5%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+}
+
+.task-form {
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 100%;
+}
+
+.task-form__header {
+  display: block;
+  font-size: 1rem;
+  font-weight: var(--fw-secondary);
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+input[name="description"] {
+  margin-top: 0.5rem;
+  font-size: 2.67rem;
+  font-weight: var(--fw-primary);
+  width: 100%;
+  border-bottom: 3px rgba(52, 45, 47, 0.38) solid;
+  padding-bottom: 1rem;
+}
+
+input[name="description"]::placeholder {
+  opacity: 21%;
+}
+
+.radio__select-date {
+  margin-right: 2rem;
+}
+
+.radio-wrapper {
+  width: 100%;
+  height: 85px;
+  background-color: rgba(212, 212, 212, 0.1);
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(57, 57, 57, 0.68);
+}
+
+input:focus + label {
+  color: var(--primary);
+}
+
+#add-task-btn {
+  margin-left: 0;
+  height: 97px;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: var(--fw-secondary);
+  font-size: 1.25rem;
+  font-family: var(--ff-primary);
+}
+
+.radio__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
