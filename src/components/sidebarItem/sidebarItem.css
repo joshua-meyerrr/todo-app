@@ -1,6 +1,6 @@
-a.sidebar-item,
-a.sidebar-item:hover,
-a.sidebar-item:visited {
+a.sidebar__item,
+a.sidebar__item:hover,
+a.sidebar__item:visited {
   display: block;
   text-decoration: none;
   color: #ccc;
@@ -8,8 +8,8 @@ a.sidebar-item:visited {
   padding: 1.5rem 0;
 }
 
-a.sidebar-item--active,
-a.sidebar-item--active:active,
-a.sidebar-item--active:hover {
+a.sidebar__item--active,
+a.sidebar__item--active:active,
+a.sidebar__item--active:hover {
   color: var(--primary);
 }
