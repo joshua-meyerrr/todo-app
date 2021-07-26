@@ -1,0 +1,53 @@
+.taskItem__checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.taskItem__label {
+  margin: 0;
+  padding: 1.3em 1.1em;
+  font-size: 1.5rem;
+  letter-spacing: 0.075rem;
+  background-color: #fbfbfb;
+  position: relative;
+}
+
+.taskItem__label--checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 5%;
+  border-bottom: 2px solid var(--primary);
+}
+
+.taskItem__label2--checked::after {
+  content: "";
+  position: absolute;
+  top: 38%;
+  left: 0;
+  right: 5%;
+  border-bottom: 2px solid var(--primary);
+}
+
+.taskItem__label2--checked::before {
+  content: "";
+  position: absolute;
+  bottom: 36%;
+  left: 0;
+  right: 45%;
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Problem: Not true responsive and width of second stike-line (right property) must be calculated ... think about better solution future me! 
+    = left to right calc( 5% + ch of second line )
+    ? how to calculate ch of second line
+      ~ identify ch of 100% width 
+*/
+
+/* Define: max. 2 lines, otherwise wrapped */
+
+.linebreak-simulator {
+  width: 300px;
+}
