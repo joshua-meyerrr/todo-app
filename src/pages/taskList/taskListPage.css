@@ -4,3 +4,25 @@
   display: grid;
   grid-template: 1fr 3fr / 1fr 4fr;
 }
+
+.taskList__taskItem {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.taskItem__checkbox:checked + .taskItem__text::before {
+  content: "";
+  position: absolute;
+  top: 38%;
+  left: 0;
+  right: 5%;
+  border-bottom: 3px solid var(--primary);
+}
+
+.taskItem__checkbox:checked + .taskItem__text::after {
+  content: "";
+  position: absolute;
+  bottom: 36%;
+  left: 0;
+  right: 45%;
+  border-bottom: 3px solid var(--primary);
+}
