@@ -120,32 +120,7 @@ a.sidebar__item--active:hover {
   position: relative;
 }
 
-/* .taskItem__label--checked::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 5%;
-  border-bottom: 2px solid var(--primary);
-} */
-
-/* .taskItem__label2--checked::after {
-  content: "";
-  position: absolute;
-  top: 38%;
-  left: 0;
-  right: 5%;
-  border-bottom: 2px solid var(--primary);
-}
-
-.taskItem__label2--checked::before {
-  content: "";
-  position: absolute;
-  bottom: 36%;
-  left: 0;
-  right: 45%;
-  border-bottom: 2px solid var(--primary);
-} */
+/* the crossing effect does not work  till now. i will try to make the crossing line adaptive with js */
 
 .taskItem__checkbox:checked + .taskItem__text::before {
   content: "";
