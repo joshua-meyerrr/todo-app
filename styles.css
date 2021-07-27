@@ -240,7 +240,7 @@ input:focus + label {
   color: var(--primary);
 }
 
-#add-task-btn {
+.task-form__button {
   margin-left: 0;
   height: 97px;
   background-color: var(--primary);
