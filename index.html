@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <button class="burger-menu" aria-label="open Menu">
+        <img src="./src/assets/burger-menu.svg" alt="" height="13" width="31" />
+      </button>
+      <div class="headline">
+        <h1>Tasks</h1>
+        <button
+          class="notification-btn"
+          aria-label="open notification settings"
+        >
+          <img src="./src/assets/bell-icon.svg" alt="" width="20" height="23" />
+        </button>
+      </div>
+
+      <!-- Sidebar/Nav -->
+
+      <nav class="sidebar">
+        <a class="sidebar__item sidebar__item--active" href="#">today</a>
+        <a class="sidebar__item sidebar__item--active" href="#">tomorrow</a>
+        <a class="sidebar__item sidebar__item--active" href="#">this week</a>
+      </nav>
+
+      <!-- Tasklist -->
+
+      <section class="taskList__taskItem">
+        <label class="taskItem__label">
+          <input class="taskItem__checkbox" type="checkbox" name="taskItem" />
+          <span class="taskItem__text">Book appointment with Jared</span></label
+        >
+        <label class="taskItem__label">
+          <input class="taskItem__checkbox" type="checkbox" name="taskItem" />
+          <span class="taskItem__text"
+            >Upload today shot on Dribbble</span
+          ></label
+        >
+        <label class="taskItem__label">
+          <input class="taskItem__checkbox" type="checkbox" name="taskItem" />
+          <span class="taskItem__text"
+            >Complete the Elephant Illustration</span
+          ></label
+        >
+        <label class="taskItem__label">
+          <input class="taskItem__checkbox" type="checkbox" name="taskItem" />
+          <span class="taskItem__text"
+            >Buy Cake for Clair's Birthday</span
+          ></label
+        >
+        <label class="taskItem__label">
+          <input class="taskItem__checkbox" type="checkbox" name="taskItem" />
+          <span class="taskItem__text"
+            >Attend UX Conference with Jared</span
+          ></label
+        >
+      </section>
+      <button class="action-btn">
+        <img
+          src="./src/assets/btn-plus.svg"
+          alt="add new text"
+          height="40"
+          width="40"
+        />
+      </button>
+    </div>
+  </body>
+</html>
