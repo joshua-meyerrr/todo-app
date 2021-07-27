@@ -101,7 +101,7 @@ a.sidebar__item--active:hover {
   display: none;
 }
 
-.taskList__taskItem {
+.taskItem {
   padding-top: 2rem;
   display: block;
   height: 100%;
