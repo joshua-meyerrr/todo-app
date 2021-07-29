@@ -105,6 +105,7 @@ a.sidebar__item--active:hover {
   padding-top: 2rem;
   display: block;
   height: 100%;
+  width: 100%;
   grid-column: 2/3;
   grid-row: span 2;
   background-color: #fbfbfb;
@@ -122,12 +123,26 @@ a.sidebar__item--active:hover {
 
 /* the crossing effect does not work  till now. i will try to make the crossing line adaptive with js */
 
+/* .taskItem__checkbox:checked + .taskItem__text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 8%;
+  border-bottom: 3px solid var(--primary);
+} */
+
+/* clientwidth in pixel from taskitemlabel */
+
+/* box-decoration-break */
+/* text-indent */
+
 .taskItem__checkbox:checked + .taskItem__text::before {
   content: "";
   position: absolute;
   top: 33%;
   left: 0;
-  right: 8%;
+  right: 10%;
   border-bottom: 3px solid var(--primary);
 }
 
