@@ -21,11 +21,29 @@
         <fieldset class="flex mar-5">
           <legend class="task-form__header">WHEN</legend>
           <div class="task-form__radio flex">
-            <input class="radio__input" type="radio" name="date" id="date_1" />
+            <input
+              class="radio__input"
+              type="radio"
+              name="date"
+              id="date_1"
+              value="today"
+            />
             <label for="date_1">Today</label>
-            <input class="radio__input" type="radio" name="date" id="date_2" />
+            <input
+              class="radio__input"
+              type="radio"
+              name="date"
+              id="date_2"
+              value="tomorrow"
+            />
             <label for="date_2">Tomorrow</label>
-            <input class="radio__input" type="radio" name="date" id="date_3" />
+            <input
+              class="radio__input"
+              type="radio"
+              name="date"
+              id="date_3"
+              value="select Date"
+            />
             <label class="radio__select-date" for="date_3">Select Date</label>
           </div>
         </fieldset>
@@ -37,6 +55,8 @@
         />
         <label for="add-task-btn" class="visually-hidden">Add Task</label>
       </form>
+      <button class="addTaskBtn--alternative" id="hello">alternative</button>
     </div>
+    <script src="new.js" defer="true"></script>
   </body>
 </html>
