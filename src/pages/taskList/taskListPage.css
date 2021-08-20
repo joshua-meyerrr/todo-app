@@ -6,7 +6,7 @@
   min-height: 0;
 }
 
-.taskList__taskItem {
+.taskItem {
   grid-area: 2 / 2 / 3 / 3;
 }
 
